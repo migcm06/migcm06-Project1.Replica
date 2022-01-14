@@ -64,6 +64,7 @@ body {
 .feed {
     background-color: #2A3FE6;
     color: white;
+    border-radius: 60px;
 }
 
 .icon {
@@ -73,7 +74,10 @@ body {
 
 .home {
     margin-top: auto;
+    padding-top: 40px;
     color: black;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .home h1 {
@@ -96,4 +100,17 @@ body {
     flex-direction: column;
     gap: 10px;
     padding-left: 175px;
+}
+
+.circle {
+    background-color: blue;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.movil {
+    width: 250px;
+    position: relative;
+    align-items: center;
 }
