@@ -75,3 +75,25 @@ body {
     margin-top: auto;
     color: black;
 }
+
+.home h1 {
+    font-size: 80px;
+    color: #212529;
+    text-align: left;
+    width: min-content;
+    /*margin: 30px 0 0 170px;*/
+}
+
+.home p {
+    font-size: 24px;
+    color: #6C757C;
+    text-align: left;
+    width: 550px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 175px;
+}
