@@ -13,9 +13,9 @@ body {
     height: 70px;
     position: fixed;
     width: 100%;
-    box-shadow: 0px 1px 10px 1px rgba(41, 41, 41, 0.774);
     top: 0;
     left: 0;
+    box-shadow: 0px 1px 10px 1px rgba(41, 41, 41, 0.774);
 }
 
 .nav {
@@ -59,6 +59,7 @@ body {
 
 .nav-menu-link:hover {
     background-color: #D92F6C;
+    color: white;
     transition: 0.5s;
     border-radius: 60px;
 }
@@ -81,10 +82,11 @@ body {
 
 .home {
     margin-top: auto;
-    padding-top: 40px;
+    padding: 80px 0px 0px 100px;
     color: black;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 50px;
 }
 
 .home h1 {
@@ -106,13 +108,14 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding-left: 175px;
+    padding-left: 80px;
 }
 
 .circle {
-    background-color: blue;
-    height: 400px;
-    width: 400px;
+    background: linear-gradient(50deg, #5C35E1, #A326D9);
+    height: 350px;
+    width: 350px;
+    margin-top: auto;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -121,7 +124,4 @@ body {
 
 .movil {
     width: 250px;
-    display: flex;
-    align-items: center;
-   
 }
