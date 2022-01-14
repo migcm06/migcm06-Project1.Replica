@@ -64,5 +64,9 @@ body {
 .feed {
     background-color: #2A3FE6;
     color: white;
-    border-radius: 60px;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-around;
 }
