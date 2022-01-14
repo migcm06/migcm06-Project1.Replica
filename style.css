@@ -5,7 +5,7 @@
 
 body {
     font-family: sans-serif;
-    padding: 20px 20px 0;
+    padding: 90px 20px 30px;
 }
 
 .header {
@@ -69,4 +69,9 @@ body {
 .icon {
     display: flex;
     justify-content: space-around;
+}
+
+.home {
+    margin-top: auto;
+    color: black;
 }
