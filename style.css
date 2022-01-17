@@ -148,7 +148,7 @@
     
     .demo {
         position: absolute;
-        width: 260px;
+        width: 280px;
         height: 520px;
         top: 45px;
         left: 150px;
@@ -243,7 +243,6 @@
         width: 340px;
         margin-right: 10px;
         margin-left: 30px;
-
         padding-left: 10px;
         padding-right: 10px;
         border-radius: 50%;
@@ -291,8 +290,7 @@
     }
     
     .cajas {
-        background-color: rgb(26, 224, 182);
-        
+        background-color: white;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
@@ -310,6 +308,7 @@
     .title-learn {
         text-align: center;
         color: #212529;
+        font-family: 'Kanit';
     }
     
     .text-learn {
