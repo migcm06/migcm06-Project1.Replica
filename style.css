@@ -187,15 +187,18 @@
         background-color: rgba(50, 50, 50, 50);
         background-blend-mode: soft-light;
         width: 100%;
-        height: 100vh;
+        height: 750px;
         background-size: cover;
-        padding: 100px 0px 20px 100px;
         color: white;
         font-size: 80px;
+        display: flex;
+        flex-direction: column;
     }
     
     .two {
         color: white;
+        margin-left: 70px;
+        margin-top: 170px;
     }
     
     .btn2 {
@@ -205,6 +208,7 @@
         background-color: transparent;
         border-radius: 50px;
         border-color: white;
+        text-align: center;
     }
     
     #btn2 {
@@ -221,13 +225,13 @@
         display: flex;
         justify-content: flex-start;
         padding-bottom: 100px;
-        padding-top: 90px;
+        padding-top: 90gitpx;
     }
     
     .celu-learning {
         background-color: white;
         padding-right: 70px;
-        padding-top: 70px;
+        padding-top: 80px;
         padding-bottom: 90px;
         margin-top: 40px;
         margin-left: 100px;
