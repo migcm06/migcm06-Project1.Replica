@@ -8,6 +8,8 @@
         font-family: 'Newsreader';
         display: grid;
         grid-template-columns: auto;
+     
+
     }
     
     .header {
@@ -53,6 +55,7 @@
         gap: 25px;
         list-style: none;
         margin-right: 100px;
+        z-index: 80;
     }
     
     .nav-menu-item {
@@ -128,7 +131,7 @@
         padding-bottom: 65px;
         margin-top: 20px;
         margin-left: 5px;
-        margin-right: 100px;
+        margin-right: 80px;
         margin-bottom: 50px;
         display: flex;
         justify-content: center;
@@ -237,14 +240,15 @@
     }
     
     .circle-learning {
+        
         position: relative;
         background: linear-gradient(50deg, #5C35E1, #A326D9);
-        height: 340px;
-        width: 340px;
+        height: 360px;
+        width: 360px;
         margin-right: 10px;
         margin-left: 30px;
         padding-left: 10px;
-        padding-right: 10px;
+        padding-right: 0px;
         border-radius: 50%;
         display: flex;
         justify-content: flex-end;
@@ -297,7 +301,7 @@
     }
     
     .caja {
-        width: 400px;
+        width: 350px;
     }
     
     .icono {
@@ -307,6 +311,8 @@
         justify-content: center;
         align-items: center;
         -webkit-background-clip: text;
+        font-size: 60px;
+        
     }
     
     .title-learn {
