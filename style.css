@@ -8,8 +8,6 @@
         font-family: 'Newsreader';
         display: grid;
         grid-template-columns: auto;
-     
-
     }
     
     .header {
@@ -228,7 +226,7 @@
     .celu-learning {
         background-color: white;
         padding-right: 70px;
-        padding-top: 40px;
+        padding-top: 70px;
         padding-bottom: 90px;
         margin-top: 40px;
         margin-left: 100px;
@@ -240,7 +238,6 @@
     }
     
     .circle-learning {
-        
         position: relative;
         background: linear-gradient(50deg, #5C35E1, #A326D9);
         height: 360px;
@@ -279,8 +276,9 @@
     .x-learning {
         width: 25px;
         position: absolute;
-        top: 20px;
-        left: 400px;
+        top: -70px;
+        left: 380px;
+        z-index: 30;
     }
     
     footer {
@@ -296,6 +294,9 @@
     .cajas {
         background-color: white;
         display: grid;
+        top: 30px;
+        padding-bottom: -20px;
+        margin-bottom: 30px;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
@@ -312,7 +313,6 @@
         align-items: center;
         -webkit-background-clip: text;
         font-size: 60px;
-        
     }
     
     .title-learn {
@@ -324,4 +324,28 @@
     .text-learn {
         color: #6C757C;
         text-align: center;
+    }
+    
+    .up {
+        position: absolute;
+        font-size: 50px;
+        background: -webkit-linear-gradient(#463AE3, #872BDC);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        top: 2000px;
+        left: 1200px;
+    }
+    
+    .footer-p {
+        margin-top: 10px;
+        font-family: 'Mulish';
+        font-size: 15px;
+    }
+    
+    .nav-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        font-family: 'Mulish';
     }
