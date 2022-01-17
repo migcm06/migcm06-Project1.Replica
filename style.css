@@ -301,8 +301,12 @@
     }
     
     .icono {
+        background: -webkit-linear-gradient(#463AE3, #872BDC);
+        -webkit-text-fill-color: transparent;
         display: flex;
         justify-content: center;
+        align-items: center;
+        -webkit-background-clip: text;
     }
     
     .title-learn {
