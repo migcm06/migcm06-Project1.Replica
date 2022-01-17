@@ -1,41 +1,114 @@
-<html>
+<!doctype html>
+<html lang="es">
 
 <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Mi Replica Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-
+    <title>Mi réplica web</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
 </head>
 
 <body>
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <header class="header">
         <nav class="nav">
-            <a href="#" class="logo link">Mi réplica web</a>
-            <ul class="nav-menu">
-                <li class="nav-menu-item"><a href="#" class="nav-menu-link link">Inicio</a></li>
-                <li class="nav-menu-item"><a href="#" class="nav-menu-link link">Notas</a></li>
-                <li class="nav-menu-item"><a href="#" class="nav-menu-link link">Aprendizaje</a></li>
-                <li class="nav-menu-item"><button class="nav-menu-link link feed"><i class="bi bi-chat-text-fill"></i>Enviar Feedback</button></li>
-            </ul>
+            <div class="leftmenu">
+                <h1 class="logo">Mi réplica web</h1>
+            </div>
+            <div class="rightmenu">
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a href="#" class="nav-menu-link link">Inicio</a></li>
+                    <li class="nav-menu-item"><a href="#" class="nav-menu-link link">Notas</a></li>
+                    <li class="nav-menu-item"><a href="#" class="nav-menu-link link">Aprendizaje</a></li>
+                    <li class="nav-menu-item"><a href="https://educamas.com.co/contacto/" class="feed link"><i class="bi bi-chat-text-fill"></i><span>Enviar Feedback</span></a></li>
+                </ul>
+            </div>
+
+        </nav>
+
     </header>
 
+    <!--Aqui comienza las sesiones-->
     <section class="home">
-
-        <div class="text">
-            <h1>¡Muéstranos tu talento programando!</h1>
-            <p>Esta es tu oportunidad para que nos deslumbres y nos hagas sentir origullos de lo que puedes hacer una semana después!</p>
+        <div class="content">
+            <h1 class="title">¡Muéstranos tu talento programando!</h1>
+            <p class="p">Esta es tu oportunidad para que nos deslumbres y nos hagas sentir origullos de lo que puedes hacer una semana después!</p>
         </div>
-        <div class="circle">
-            <img src="celular.png" alt="Telefono movil" class="movil">
-        </div>
+        <div class="celu">
+            <div class="circle">
+                <video class="demo" src="demo-pantala.mp4" autoplay loop muted></video>
+                <img src="celular.png" alt="Telefono movil" class="movil">
+                <img src="x.png" class="x">
+                <img src="ball.png" class="img ball">
 
+            </div>
+        </div>
 
     </section>
 
+    <!--sección Notas-->
+    <section class="notes">
+        <h1 class="title two" id="notes">Y toma nota...</br>De lo que seguiras aprendiendo.</h1>
+        <button class="btn2"><a href="https://educamas.com.co/programate/" class="link" id="btn2">Prográmate Educamás</a></button>
+    </section>
+
+    <section class="learning">
+        <div class="celu">
+            <div class="circle">
+                <video class="demo" src="demo-pantala.mp4" autoplay loop muted></video>
+                <img src="celular.png" alt="Telefono movil" class="movil">
+                <img src="x.png" class="x">
+                <img src="ball.png" class="img ball">
+
+            </div>
+        </div>
+
+        <div class="one">
+            <i class="bi bi-phone"></i>
+            <h1 class="title-div">Hacer páginas responsive</h1>
+            <p class="text-four">Aprenderás a crear páginas ajustables a los diferentes tamaños de los dispositivos.</p>
+        </div>
+
+        <div class="two">
+            <i class="bi bi-window"></i>
+            <h1 class="title-div">Frameworks</h1>
+            <p class="text-four">Aprenderás la utilidad de los frameworks y cómo utilizarlos.</p>
+        </div>
+
+        <div class="three">
+            <i class="bi bi-briefcase"></i>
+            <h1 class="title-div">Crear tu portafolio</h1>
+            <p class="text-four">Aprenderás a hacer un portafolio atractivo y profesional.</p>
+        </div>
+
+        <div class="four">
+            <i class="bi bi-patch-check"></i>
+            <h1 class="title-div">Desarrollador Fullstack</h1>
+            <p class="text-four">Y al final serás un excelente Desarrollador!</p>
+        </div>
+    </section>
+
+    <!--Aquí va el footer-->
+    <footer class="footer">
+        <h2>© Prográmate 2022</h2>
+        <ul class="nav-footer">
+            <li>Términos</li>
+            <li>Condiciones</li>
+            <li>Educamás</li>
+        </ul>
+
+    </footer>
+
+
 
 </body>
-
 
 </html>
