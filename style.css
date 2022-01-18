@@ -137,14 +137,10 @@
     }
     
     .circle {
-        position: relative;
         background: linear-gradient(50deg, #5C35E1, #A326D9);
         height: 360px;
         width: 360px;
-        margin-right: 10px;
-        margin-left: 30px;
-        padding-left: 10px;
-        padding-right: 0px;
+        margin-top: 10px;
         border-radius: 50%;
         display: flex;
         justify-content: center;
@@ -243,7 +239,7 @@
         align-items: center;
     }
     
-    .circle-learning {
+    .half-circle {
         position: relative;
         background: linear-gradient(50deg, #5C35E1, #A326D9);
         height: 360px;
@@ -268,6 +264,7 @@
     }
     
     .movil-learning {
+        position: absolute;
         width: 270px;
         z-index: 2;
     }
